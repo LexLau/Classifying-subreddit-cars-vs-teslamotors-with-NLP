@@ -163,3 +163,20 @@ Part 1 of the project focuses on **Data wrangling/gathering/acquisition**. This 
 Part 2 of the project focuses on **Natural Language Processing** and converting standard text data (like Titles and Comments) into a format that allows us to analyze it and use it in modeling.
 
 Part 3 of the project focuses on **Classification Modeling**.  Given that project 2 was a regression focused problem, we needed to give you a classification focused problem to practice the various models, means of assessment and preprocessing associated with classification.   
+
+_____________________________________________________________________
+
+
+### Alex's Data Dictionary ###
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|Title|object|-| |
+|Self Text|object| |
+|Subreddit|object| |
+|Created UTC|integer| |
+|Author|object| |
+|Number of Comments|integer| |
+|Score|integer| |
+|Is Self|boolean| |
+|Time Stamp|object?| |
