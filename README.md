@@ -1,4 +1,4 @@
-# Web APIs & NLP: Reddit 'cars' vs 'teslamotors'
+# Classifying-subreddit-cars-vs-teslamotors-with-NLP
 ### By Alex Lau
 
 ## Contents:
@@ -61,4 +61,3 @@ We are successful in building a model that can reasonably classify a title of a 
 ## Data Dictionary ##
 
 1. https://pushshift.io/api-parameters/
-# Classifying-subreddit-cars-vs-teslamotors-with-NLP
