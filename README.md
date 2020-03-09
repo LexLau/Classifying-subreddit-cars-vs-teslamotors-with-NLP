@@ -39,22 +39,22 @@ The scores for all scenarios are shown below:
 
 <img src="./accuracy_scores.png">
 
-* We find **Count Vectorized Logistic Regression** model does better than the other models in each of their corresponding cross-validation, train, and test cases.
+* We find **TFIDF Vectorized Logistic Regression** model does better than the other models in each of their corresponding cross-validation, train, and test cases.
 
-With this evidence, our production model was selected to be the Count Vectorized Logistic Regression model.
+With this evidence, our production model was selected to be the TFIDF Vectorized Logistic Regression model.
 
 ---
 
 ## Conclusions and Recommendations
 
-All of our models were more successful than the baseline in classifying the subreddit from both training and testing set, but our Count Vectorized Logistic Model outperformed the rest with a testing accuracy score of 87.5%. 
+All of our models were more successful than the baseline in classifying the subreddit from both training and testing set, but our TFIDF Vectorized Logistic Model outperformed the rest with a testing accuracy score of 88.68% and training score of 94.95%. 
 
 There are a number of limitations that the model suffers from however:
 
-1. The model suffers from slight overfitting as the Accuracy of the Testing Set is 8.71% points lower than the Training Set's 
+1. The model suffers from slight overfitting as the Accuracy of the Testing Set is 6.27% points lower than the Training Set's 
 2. Its predictive power is limited by the time frame of reddit posts. Our webscrape pulls the most recent 150 days of content, which is continuously changing, but our model represents a snapshot in time.
 
-We are successful in building a model that can reasonably classify a title of a reddit post to belonging to subreddit 'teslamotors' or 'cars'. We were also successfull in identifying key words beyond the make and model that hold significance, such as autopilot, v10, and summon. Tesla spends $0 on advertising, so it is not surprising if the population is not familiar with these features in relation to vehicles. If we can educate the public on new technologies that exist on Tesla vehicles, specifically context behind the highest non-make and model coefficients of our model from subreddit 'teslamotors', we can potentially reduce the dependency on gas, slow down global warming and pollution, and save some lives with autopilot.
+We are successful in building a model that can reasonably classify a title of a reddit post to belonging to subreddit 'teslamotors' or 'cars'. We were also successfull in identifying key words beyond the make and model that hold significance, such as supercharge, fsd (full self driving, v10, and summon. Tesla spends $0 on advertising, so it is not surprising if the population is not familiar with these features in relation to vehicles. If we can educate the public on new technologies that exist on Tesla vehicles, specifically context behind the highest non-make and model coefficients of our model from subreddit 'teslamotors', we can potentially reduce the dependency on gas, slow down global warming and pollution, and save some lives with autopilot.
 
 ---
 
